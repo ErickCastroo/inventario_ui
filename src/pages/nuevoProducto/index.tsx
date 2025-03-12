@@ -14,7 +14,6 @@ function NuevoProducto() {
       <Form
         className='mt-10'
         method='POST'
-
       >
 
         <div className='mb-4'>

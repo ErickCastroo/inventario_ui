@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router'
 
 import { action as nuevoProductoAction} from '@/utils/actions/productoNuevoAction'
+import { ProductosLoader } from '@/utils/loader'
 
 import { Layout } from '@/components/layout'
 
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <Home />,
+        loader: ProductosLoader
       },
       {
         path: 'productos/nuevo',
