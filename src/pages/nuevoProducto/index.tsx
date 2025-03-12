@@ -1,8 +1,13 @@
+import { Link } from "react-router"
 
 function NuevoProducto() {
   return (
-    <div>
-      <h1>Nuevo Producto</h1>
+    <div className='flex justify-between'>
+      <h2 className='text-4xl font-black text-slate-500'>Registrar Producto</h2>
+
+      <Link to='/' className='rounded-md bg-indigo-600 p-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-500'>
+        Volvel a productos
+      </Link>
     </div>
   )
 }
