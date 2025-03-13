@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router'
 
 import { action as nuevoProductoAction} from '@/utils/actions/productoNuevoAction'
-import { ProductosLoader } from '@/utils/loader'
+import { ProductosLoader } from '@/pages/home/App'
 
 import { Layout } from '@/components/layout'
 
